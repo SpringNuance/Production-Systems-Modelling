@@ -1,0 +1,3 @@
+Queuing functions for Excel:
+
+http://queueingtoolpak.org/index.shtml

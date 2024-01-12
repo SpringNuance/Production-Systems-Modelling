@@ -1,0 +1,12 @@
+﻿I = 40;
+K = 4;
+T = 36;
+M = 10000;
+
+SheetConnection sheet("MTO-AggregatePlanningAssignmentData.xls");
+ A from SheetRead(sheet,"N3:N42");
+ D from SheetRead(sheet,"O3:O42");
+ P from SheetRead(sheet,"P3:P42");
+ WC from SheetRead(sheet,"Q3:T42");
+ S to SheetWrite(sheet, "Z3:BE42");
+ 
