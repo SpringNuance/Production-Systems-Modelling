@@ -1,0 +1,16 @@
+Grading of assignments
+
+Based on report; see separate instruction
+Same general criteria as is used for any other report (see e.g. School of Engineering ”Master’s thesis guidelines”) is applied
+Scale 1 – 10 p / assignment:
+1-2 points: you have done some modeling and experimentation, but your models are seriously wrong and your experimentation is rubbish. You do not provide complete results and you have not attached your model file(s) to the submission.
+3-4 points: you have done the modeling and experimentation, but there are deficiencies and/or analysis is not adequate
+5-6 points: experimentation is well designed and analysis and conclusions are covering and correct
+7-8 points: extra problems are answered in addition to basic problem.
+9-10 points: All basic and extra modeling, experimentation, analysis and conclusions are complete and correct. Report is logical, well organized and easy to read.
+In your analysis, explain what you get as your results and try to explain why the system and results behave as they do. Make academic and/or practical conclusions.
+
+Remember to include your results and model file in the submission!
+
+Grading of examination
+There will be four questions, each 0 - 5 p. => max. points 20
