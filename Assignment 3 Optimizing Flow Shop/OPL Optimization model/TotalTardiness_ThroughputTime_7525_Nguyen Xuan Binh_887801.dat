@@ -1,0 +1,39 @@
+/*********************************************
+ * OPL 22.1.1.0 Data
+ * Author: springnuance
+ * Creation Date: 21 Feb 2024 at 20.02.25
+ *********************************************/
+
+I = 10; 				// Number of jobs 
+K = 4; 				// Number of process stages
+M = 10000;				// Large number M
+
+Wtard = 0.75; // Weight for total tardiness
+Wtp = 0.25; // Weight for throughput time
+
+DD = [44, 46, 73, 61, 55, 54, 74, 115, 70, 108];
+P = [
+    [13, 6, 10, 12],
+    [18, 7, 4, 6],
+    [12, 8, 13, 23],
+    [11, 11, 12, 9],
+    [8, 11, 6, 7],
+    [4, 15, 9, 7],
+    [15, 12, 9, 12],
+    [13, 18, 13, 8],
+    [4, 14, 8, 8],
+    [25, 5, 10, 6],
+];
+
+// Data reading and writing to Excel worksheet
+SheetConnection sheet("Gantt drawing excel_TotalTardiness_ThroughputTime_Weight_7525_Nguyen Xuan Binh_887799.xls");
+
+// We can also read data from excel file like this
+// P from SheetRead(sheet, "A1:A5");
+// DD from SheetRead(sheet, "B1:B5");
+
+// We write data from CPLEX into excel file
+t to SheetWrite(sheet, "O8:R17");
+f to SheetWrite(sheet, "T8:T17");
+throughputTime to SheetWrite(sheet, "P24:P33");
+

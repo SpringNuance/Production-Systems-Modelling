@@ -1,0 +1,34 @@
+/*********************************************
+ * OPL 22.1.1.0 Data
+ * Author: springnuance
+ * Creation Date: 21 Feb 2024 at 20.02.25
+ *********************************************/
+
+I = 10; 				// Number of jobs 
+K = 4; 				// Number of process stages
+M = 10000;				// Large number M
+
+DD = [44, 46, 54, 55, 61, 70, 73, 74, 108, 115];
+P = [
+    [13, 6, 10, 12],
+    [18, 7, 4, 6],
+    [4, 15, 9, 7],
+    [8, 11, 6, 7],
+    [11, 11, 12, 9],
+    [4, 14, 8, 8],
+    [12, 8, 13, 23],
+    [15, 12, 9, 12],
+    [25, 5, 10, 6],
+    [13, 18, 13, 8],
+];
+
+// Data reading and writing to Excel worksheet
+SheetConnection sheet("Gantt drawing excel_EDD_Nguyen Xuan Binh_887799.xls");
+
+// We can also read data from excel file like this
+// P from SheetRead(sheet, "A1:A5");
+// DD from SheetRead(sheet, "B1:B5");
+
+// We write data from CPLEX into excel file
+t to SheetWrite(sheet, "W21:Z30");
+f to SheetWrite(sheet, "AB21:AB30");

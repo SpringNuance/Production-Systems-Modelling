@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+    	
+    <version>1.0</version>
+    	
+    <configs>
+        		
+        <config default="false" name="FIFO" category="opl">
+            			
+            <ref name="settings.ops" type="setting">
+			</ref>
+            			
+            <ref name="FIFO priority_Nguyen Xuan Binh_887799.dat" type="data">
+			</ref>
+            			
+            <ref name="IP model FIFO.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="EDD" category="opl">
+            			
+            <ref name="settings.ops" type="setting">
+			</ref>
+            			
+            <ref name="EDD priority_Nguyen Xuan Binh_887799.dat" type="data">
+			</ref>
+            			
+            <ref name="IP model EDD.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="TotalTardinessMin" category="opl">
+            			
+            <ref name="settings.ops" type="setting">
+			</ref>
+            			
+            <ref name="IP model TotalTardinessMin.mod" type="model">
+			</ref>
+            			
+            <ref name="TotalTardiness_ThroughputTime_0505_Nguyen Xuan Binh_887800.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="true" name="MaxTardinessMin" category="opl">
+            			
+            <ref name="settings.ops" type="setting">
+			</ref>
+            			
+            <ref name="MaxTardinessMin_Nguyen Xuan Binh_887800.dat" type="data">
+			</ref>
+            			
+            <ref name="IP model MaxTardinessMin.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="Weight_TotalTardiness_ThroughputTime_0.5_0.5" category="opl">
+            			
+            <ref name="IP model TotalTardiness ThroughputTime Weighted Min.mod" type="model">
+			</ref>
+            			
+            <ref name="settings.ops" type="setting">
+			</ref>
+            			
+            <ref name="TotalTardiness_ThroughputTime_0505_Nguyen Xuan Binh_887800.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="Weight_TotalTardiness_ThroughputTime_0.0_1.0" category="opl">
+            			
+            <ref name="TotalTardiness_ThroughputTime_0010_Nguyen Xuan Binh_887801.dat" type="data">
+			</ref>
+            			
+            <ref name="settings.ops" type="setting">
+			</ref>
+            			
+            <ref name="IP model TotalTardiness ThroughputTime Weighted Min.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="Weight_TotalTardiness_ThroughputTime_1.0_0.0" category="opl">
+            			
+            <ref name="TotalTardiness_ThroughputTime_1000_Nguyen Xuan Binh_887801.dat" type="data">
+			</ref>
+            			
+            <ref name="settings.ops" type="setting">
+			</ref>
+            			
+            <ref name="IP model TotalTardiness ThroughputTime Weighted Min.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="Weight_TotalTardiness_ThroughputTime_0.25_0.75" category="opl">
+            			
+            <ref name="TotalTardiness_ThroughputTime_2575_Nguyen Xuan Binh_887801.dat" type="data">
+			</ref>
+            			
+            <ref name="settings.ops" type="setting">
+			</ref>
+            			
+            <ref name="IP model TotalTardiness ThroughputTime Weighted Min.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="Weight_TotalTardiness_ThroughputTime_0.75_0.25" category="opl">
+            			
+            <ref name="TotalTardiness_ThroughputTime_7525_Nguyen Xuan Binh_887801.dat" type="data">
+			</ref>
+            			
+            <ref name="settings.ops" type="setting">
+			</ref>
+            			
+            <ref name="IP model TotalTardiness ThroughputTime Weighted Min.mod" type="model">
+			</ref>
+            		
+        </config>
+        	
+    </configs>
+    	
+
+</project>
