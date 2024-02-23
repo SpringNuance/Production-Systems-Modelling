@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+    	
+    <version>1.0</version>
+    	
+    <configs>
+        		
+        <config default="true" name="Aggregate Planning Even WC Distribution" category="opl">
+            			
+            <ref name="Aggregate Planning Even WC Distribution.mod" type="model">
+			</ref>
+            			
+            <ref name="settings.ops" type="setting">
+			</ref>
+            			
+            <ref name="Aggregate Planning Even WC Distribution.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="Aggregate Planning Free WC Distribution" category="opl">
+            			
+            <ref name="Aggregate Planning Free WC Distribution.mod" type="model">
+			</ref>
+            			
+            <ref name="settings.ops" type="setting">
+			</ref>
+            			
+            <ref name="Aggregate Planning Free WC Distribution.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="Aggregate Planning Standard Schedule" category="opl">
+            			
+            <ref name="Aggregate Planning Standard Schedule Distribution.mod" type="model">
+			</ref>
+            			
+            <ref name="settings.ops" type="setting">
+			</ref>
+            			
+            <ref name="Aggregate Planning Standard Schedule.dat" type="data">
+			</ref>
+            		
+        </config>
+        	
+    </configs>
+    	
+
+</project>
