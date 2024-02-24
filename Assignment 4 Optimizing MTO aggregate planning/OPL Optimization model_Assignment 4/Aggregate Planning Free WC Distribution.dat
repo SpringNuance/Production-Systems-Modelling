@@ -9,9 +9,11 @@ K = 4;
 T = 36;
 M = 10000;
 
-SheetConnection sheet("MTO AggregatePlanningAssignmentData_Free WC_Nguyen Xuan Binh_887799.xls");
+SheetConnection sheet("MTO AggregatePlanningAssignmentData_Free WC_Nguyen Xuan Binh_887799.xlsx");
  A from SheetRead(sheet,"N3:N42");
  D from SheetRead(sheet,"O3:O42");
  P from SheetRead(sheet,"P3:P42");
  WC from SheetRead(sheet,"Q3:T42");
  S to SheetWrite(sheet, "Z3:BE42");
+ C to SheetWrite(sheet, "B3:B42");
+ f to SheetWrite(sheet, "H3:H6");

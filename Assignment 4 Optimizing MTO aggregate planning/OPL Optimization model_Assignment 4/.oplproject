@@ -32,13 +32,39 @@
         		
         <config default="false" name="Aggregate Planning Standard Schedule" category="opl">
             			
-            <ref name="Aggregate Planning Standard Schedule Distribution.mod" type="model">
+            <ref name="settings.ops" type="setting">
+			</ref>
+            			
+            <ref name="Aggregate Planning Standard Schedule.dat" type="data">
+			</ref>
+            			
+            <ref name="Aggregate Planning Standard Schedule.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="Aggregate Planning Forward Planning" category="opl">
+            			
+            <ref name="Aggregate Planning Forward Planning.mod" type="model">
 			</ref>
             			
             <ref name="settings.ops" type="setting">
 			</ref>
             			
-            <ref name="Aggregate Planning Standard Schedule.dat" type="data">
+            <ref name="Aggregate Planning Forward Planning.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="Aggregate Planning Backward Planning" category="opl">
+            			
+            <ref name="Aggregate Planning Backward Planning.mod" type="model">
+			</ref>
+            			
+            <ref name="settings.ops" type="setting">
+			</ref>
+            			
+            <ref name="Aggregate Planning Backward Planning.dat" type="data">
 			</ref>
             		
         </config>
